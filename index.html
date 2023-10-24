@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google-like Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      #header {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      #search-container {
+        text-align: center;
+      }
+
+      #search-box {
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 24px;
+        font-size: 16px;
+        background-size: 92px 30px;
+        background-repeat: no-repeat;
+        background-position: 20px center;
+      }
+
+      #search-button {
+        background-color: #4285f4; /* Google blue */
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      #link-container {
+        text-align: center;
+        margin: 20px;
+      }
+
+      .link-box {
+        display: inline-block;
+        width: 200px;
+        margin: 0 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google Logo" />
+    </div>
+
+    <div id="search-container">
+      <form action="https://www.google.com/search">
+        <input type="text" id="search-box" name="q" placeholder="Search the web..." />
+        <input type="submit" id="search-button" value="Google Search" />
+      </form>
+    </div>
+
+    <div id="link-container">
+      <div class="link-box">
+        <a href="https://www.google.com">Link 1</a>
+      </div>
+      <div class="link-box">
+        <a href="https://www.google.com">Link 2</a>
+      </div>
+      <div class="link-box">
+        <a href="https://www.google.com">Link 3</a>
+      </div>
+    </div>
+  </body>
+</html>
